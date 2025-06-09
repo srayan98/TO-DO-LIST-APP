@@ -1,0 +1,65 @@
+.app 
+{
+  font-family: Arial;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.input-section 
+{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] 
+{
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button 
+{
+  padding: 10px 15px;
+  border: none;
+  background: #de2e2e;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover
+{
+  transform: scale(1.1);
+}
+
+button:active
+{
+  transform: scale(1.2);
+}
+
+.todo-item 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #daf7cf;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.todo-item.completed span 
+{
+  text-decoration: line-through;
+  color: gray;
+}
+
+header h1 {
+  color: #2e86de;
+}
